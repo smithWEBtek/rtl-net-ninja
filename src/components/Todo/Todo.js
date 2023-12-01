@@ -4,7 +4,7 @@ import Header from '../Header/Header'
 import TodoList from '../TodoList/TodoList'
 import "./Todo.css"
 
-function Todo() {
+const Todo = () => {
 
     const [todos, setTodos] = useState([])
 
